@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-family: 'Regular', cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+header{
+    background-color: orange;
+    height: 80px;
+}
+form{
+    margin-top: 20px;
+    background-color: beige;
+    padding-top: 30px;
+    width: 290px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+div{
+    display: table;
+    margin: auto;
+}
+p, label{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 14px;
+}
+.caja{
+height: 15px;
+margin-left: 20px;
+border-radius: 10px;
+border-color: chocolate;
+}
+.pedido{
+    background-color: rgb(20, 206, 20);
+    color: white;
+    height: 30px;
+    width: 90px;
+    border: 0ch;
+    border-radius: 10px;
+}
+.restablecer{
+    background-color: rgb(241, 8, 8);
+    color: white;
+    height: 30px;
+    width: 90px;
+    border: 0ch;
+    border-radius: 10px;
+}

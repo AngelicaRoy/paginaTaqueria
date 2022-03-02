@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Levantar pedido</title>
+        <link rel="stylesheet" href="css/estilo_pedidio.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Aquí se hace el pedidio</h1>
+        </header>
+        <div>
+            <form action="pedidio.js">
+                <label for="nombre">Danos tu nombre</label><br>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" class="caja">
+                <br><br>
+                
+                <label for="mesa">Tu mesa (Está el numero ababo)</label><br>
+                <input type="number" name="mesa" id="mesa" placeholder="4" class="caja">
+                <br>
+                <p>Para aquí o para llevar?</p>
+                <input type="radio" id="aqui" name="aquillevar" value="Aquí" class="caja">
+                <label for="aqui">Aquí</label><br>
+                <input type="radio" id="llevar" name="aquillevar" value="llevar" class="caja">
+                <label for="llevar">Llevar</label><br>
+    
+                <p>Tacos de Qué?</p>
+                <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+                <label for="mercurio">Mercurio</label><br>
+                <input type="number" id="mercurioCuantos" name="mercurioCuantos" placeholder="Cuantos?" class="caja"><br>
+                <input type="checkbox" id="venus" name="venus" value="Venus">
+                <label for="mercurio">Venus</label><br>
+                <input type="number" id="venusCuantos" name="venusCuantos" placeholder="Cuantos?" class="caja"><br>
+              
+                <p>¿Y para tomar?</p>
+                <select name="refresco" id="refresco">
+                    <option value="Coca Cola">Coca-Cola</option>
+                    <option value="Fanta">Fanta</option>
+                    <option value="Manzana">Manzana</option>
+                    <option value="Sprite">Sprite</option>
+                    <option value="Sangria">Sangrí</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Guayaba">Guayaba</option>
+                    <option value="Horchata">Horchata</option>
+                    <option value="Jamaica">Jamaica</option>
+    
+                </select>
+    
+                <br><br>
+                <input type="reset" class="restablecer"><!--Restablece el formulario a los valores originales-->
+                <input type="submit" class="pedido">
+            </form>
+        </div>
+        
+    </body>
+</html>

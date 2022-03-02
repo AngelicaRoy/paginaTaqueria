@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"><!--para wue la pagina html sea copatible con el navegador Internet Explorer-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--ancho inicial para la pagina-->
+        <title>Práctica web LaunchX</title>
+    </head>
+    <body>
+        <!-- Entrada / Inputs-->
+        <input type="text" id="Input1" name="Input1" value="Valor1">
+        <br>
+
+        <!-- Etiquetas para input-->
+        <label for="Input1">Ejemplo de Input básico</label><br><br>
+
+        <!-- Tipos de label-->
+        <label for="corre1">Input de Correo</label><br>
+        <input type="email"  id="correo1" name="correo1"><br><br><!--Tipo correo-->
+
+        <label for="numero1">Input de número</label><br>
+        <input type="number"  id="numero1" name="numero1"><br><br><!--Tipo numero-->
+
+        <label for="pasw1">Input de Pasword</label><br>
+        <input type="password" id="password" id="psw1" name="psw1" minlength="8"><br><br><!--Tipo password limitar el numero min. de caracteries-->
+        
+        <label for="tel1">Input de Telefono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><!--limitar el numero max. de caracteries-->
+
+        <label for="ulr1">Input de Url</label><br>
+        <input type="url" id="url1" name="url1"><br>
+        <br>
+        <!-- Checkbox-->
+        <input type="checkbox" id="tooping1" name="tooping1" value="Cebolla">
+        <label for="tooping1">Tacos con Cebolla</label><br>
+        <input type="checkbox" id="tooping2" name="tooping2" value="Cilantro">
+        <label for="tooping1">Tacos con Cilantro</label><br>
+        <input type="checkbox" id="tooping3" name="tooping2" value="Salsa">
+        <label for="tooping1">Tacos con Salsa</label><br>
+
+        <!-- Input de Color-->
+        <label for="color1">Input de Color</label>
+        <input type="color" id="color1" name="color1"><br><br>
+
+        <!-- Input de Fecha-->
+        <label for="fecha1">Input de Fecha</label><br>
+        <input type="date" id="fecha1" name="fecha1"><br><!--dd/mm/aaaa-->
+        <input type="datetime-local" id="fecha2" name="fecha2"><br><!--dd/mm/aaaa hh:mm p.m.-->
+        <input type="week" id="fecha3" name="fecha3"><br><!--ww/dd/aaaa-->
+        <input type="time" id="fecha4" name="fecha4"><br><!--hh:mm p.m.-->
+        <input type="month" id="fecha5" name="fecha5"><br><!--mm/aaaa-->
+
+        <!-- Input de tipo File-->
+        <label for="archivo1">Input de archivo</label><br>
+        <input type="file" id="archivo1" name="archivo1"><br>
+        <input type="file" id="archivo2" name="archivo2" multiple><br>
+        <!--Se sube mas de un archivo-->
+
+        <!-- Input de tipo Radio-->
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="html" name="fav_language" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+
+        <!--Input de tipo Rango-->
+        <label for="vol">Volumen (entre 0 y 50)</label><br>
+        <input type="range" id="vol" name="vol" min="0" max="50"><br>
+
+        <input type="reset"><br><!--limpiar un formulario dejarlo por defecto (vacio)-->
+        <input type="submit"><br>
+        
+        <input type="button" id="boton1" name="boton1" value="botón 1" 
+        onclick="alert('Bienvenidos explorers:)')">
+    </body>
+</html>
